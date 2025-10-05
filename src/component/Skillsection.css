@@ -1,0 +1,107 @@
+/* src/component/SkillsSection.css */
+
+.skills-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 35px 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.skill-icon {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+/* Icon colors */
+.skill-icon.html {
+  color: #e34f26;
+}
+
+.skill-icon.css {
+  color: #1572b6;
+}
+
+.skill-icon.js {
+  color: #f7df1e;
+}
+
+.skill-icon.react {
+  color: #61dafb;
+  animation: spin 6s linear infinite;
+}
+
+.skill-icon.mysql {
+  color: #00758f;
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.2);
+}
+
+/* Simple spinning animation for React icon */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.skill-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .skill-card {
+    padding: 25px;
+  }
+}

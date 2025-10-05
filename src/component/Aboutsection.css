@@ -1,0 +1,92 @@
+.about-section2 {
+  min-height: 100vh; /* full viewport height */
+  background: linear-gradient(135deg, #f9fafc 0%, #eef2ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10%;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+
+.education, .hobbies {
+  flex: 1;
+  min-width: 320px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education:hover, .hobbies:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.education h2, .hobbies h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.edu-card {
+  margin-bottom: 20px;
+  background: #f3f4f6;
+  padding: 15px;
+  border-radius: 12px;
+  transition: background 0.3s;
+}
+
+.edu-card:hover {
+  background: #e0e7ff;
+}
+
+.edu-card h3 {
+  color: #2563eb;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.edu-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hobbies li {
+  background: #f3f4f6;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.hobbies li:hover {
+  background: #dbeafe;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
