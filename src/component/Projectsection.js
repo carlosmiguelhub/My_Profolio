@@ -6,7 +6,7 @@ import project from "../assets/project.png"; // import image
 const Projectsection = () => {
   return (
     <section id="Projectsection" className="project-section">
-      <h2 className="text-center mb-4">My Project</h2>
+      <h2 className="text-center mb-4">My Recent Project</h2>
       <div className="card text-center shadow-lg p-4" style={{ width: "25rem" }}>
         <img
           src={project}
@@ -21,7 +21,7 @@ const Projectsection = () => {
             and monitor realtime.
           </p>
           <a href="https://github.com/carlosmiguelhub" className="btn btn-primary" target="_blank" rel="noreferrer">
-            View Project
+            View Project <i class="bi bi-eye"></i>
           </a>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import "./Navbar.css";
 
@@ -15,14 +14,13 @@ const CustomNavbar = () => {
           <Nav className="ms-auto align-items-center">
             <Nav.Link href="#Introsection" className="nav-link-custom">Home</Nav.Link>
             <Nav.Link href="#Aboutsection" className="nav-link-custom">About</Nav.Link>
-            <Nav.Link href="#Skillsection" className="nav-link-custom">Skills</Nav.Link>
+            <Nav.Link href="#Skillsection" className="nav-link-custom">Technologies</Nav.Link>
             <Nav.Link href="#Projectsection" className="nav-link-custom">Projects</Nav.Link>
               <Nav.Link href="#contact" className="nav-link-custom">Contact</Nav.Link>
             
             <Button variant="primary" className="ms-3 rounded-pill px-4 py-2"  href="/myCV.pdf"
-      target="_blank"
-      rel="noopener noreferrer">
-              VIEW MY CV
+ target="_blank"rel="noopener noreferrer">
+              VIEW MY CV <i class="bi bi-file-pdf-fill"></i>
             </Button>
           </Nav>
         </Navbar.Collapse>

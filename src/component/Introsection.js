@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Introsection.css';
 import profileImg from '../assets/profile.jpg';
+import wave from "../assets/wave.png";
 
 const IntroSection = () => {
   return (
@@ -21,7 +22,7 @@ const IntroSection = () => {
         <div className="col-md-6 text-md-start text-center px-4">
           <h1 className="display-5 fw-bold mb-3">Hi, I'm Carlos Miguel 👋</h1>
           <p className="lead mb-4">
-            I’m a passionate <span className="highlight">EDUCATOR</span> and technology enthusiast 
+            I’m a passionate <span className="highlight"><b>EDUCATOR</b></span> and technology enthusiast 
             who loves building interactive, user-friendly web applications using 
             modern tools like React.js and Bootstrap.
           </p>
@@ -32,8 +33,11 @@ const IntroSection = () => {
                     Want to Collab? Click Here!
                   </a>
         </div>
+
       </div>
+     
     </section>
+    
   );
 };
 
