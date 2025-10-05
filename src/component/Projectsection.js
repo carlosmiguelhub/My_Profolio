@@ -7,10 +7,10 @@ const Projectsection = () => {
   return (
     <section id="Projectsection" className="project-section">
       <h2 className="text-center mb-4">My Recent Project</h2>
-      <div className="card text-center shadow-lg p-4" style={{ width: "25rem" }}>
+      <div className="col-12 card text-center shadow-lg p-4" style={{ width: "25rem" }}>
         <img
           src={project}
-          className="card-img-top mx-auto"
+          className="card-img-top img-fluid mx-auto"
           alt="Project Logo"
           style={{ width: "120px", borderRadius: "50%", marginTop: "10px" }}
         />

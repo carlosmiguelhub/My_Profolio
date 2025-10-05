@@ -1,31 +1,4 @@
-/* Default light mode */
-body.light-mode {
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* Dark mode */
-body.dark-mode {
-  background-color: #121212;
-  color: #fff;
-}
-
-.app-container {
-  text-align: center;
-  padding: 50px;
-}
-
-.toggle-btn {
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 8px;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.toggle-btn:hover {
-  background-color: #0056b3;
+ body, html {
+overflow-x: hidden;
+  width: 100%;
 }

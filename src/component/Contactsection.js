@@ -8,7 +8,7 @@ function Contactsection() {
       <div className="row align-items-center">
         {/* Left Side - Map */}
         <div className="col-md-6 mb-4 mb-md-0">
-          <div className="map-container shadow rounded">
+          <div className="map-container-fluid shadow rounded">
             <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.9168016301976!2d124.025302939117!3d10.503081056955695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9bbe7615b8873%3A0x71bf861406bf5b3a!2sCTU%20Danao%20Campus%20ROTC%20Office!5e1!3m2!1sen!2sph!4v1759635211561!5m2!1sen!2sph"
 
@@ -22,7 +22,7 @@ function Contactsection() {
         </div>
 
         {/* Right Side - Contact Form */}
-        <div className="col-md-6">
+        <div className="col-md-6 ">
           <h2 className="fw-bold mb-4">Contact Me</h2>
           <p className="text-muted">
             Feel free to reach out if you’d like to collaborate or have any questions!
@@ -33,7 +33,7 @@ function Contactsection() {
             <li><strong>Location:</strong> Sabang Danao Cebu, Philippines</li>
           </ul>
 
-          <form>
+          <form class="container-fluid ">
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Your Name</label>
               <input type="text" className="form-control" id="name" placeholder="Enter your name" />

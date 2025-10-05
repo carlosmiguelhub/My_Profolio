@@ -61,9 +61,7 @@
     object-fit: cover;   
     border-radius: 50%;   
     position: absolute;        
-    
-  
-  
+
 }
 
 .edu-card div {
@@ -131,8 +129,17 @@
   border-radius: 10px;
 }
 
-@media (max-width: 900px) {
-  .about-container {
-    flex-direction: column;
+@media (max-width: 680px) {
+  .about-container-fluid {
+  position: relative;
   }
+  .edu-card p{
+
+    font-size: small;
+
+  }
+  .edu-card h2{
+    font-size: small;
+  }
+
 }
