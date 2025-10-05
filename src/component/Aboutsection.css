@@ -42,6 +42,9 @@
 }
 
 .edu-card {
+  display:flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 20px;
   background: #f3f4f6;
   padding: 15px;
@@ -49,19 +52,41 @@
   transition: background 0.3s;
 }
 
+.edu-card img {
+  width: 45px;
+  height: 45px;
+  align-items: end;
+  mix-blend-mode: multiply; /* blends white away on light bg */
+  background: transparent;
+    object-fit: cover;   
+    border-radius: 50%;   
+    position: absolute;        
+    
+  
+  
+}
+
+.edu-card div {
+  display: flex;
+  flex-direction: column;
+}
+
 .edu-card:hover {
   background: #e0e7ff;
 }
 
-.edu-card h3 {
+.edu-card h2 {
   color: #2563eb;
   font-size: 1.2rem;
   margin-bottom: 5px;
+  padding-left: 70px;
+  
 }
 
 .edu-card p {
   color: #4b5563;
   font-size: 0.95rem;
+  padding-top: 14px;
 }
 
 .hobbies ul {
@@ -106,7 +131,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .about-container {
     flex-direction: column;
   }

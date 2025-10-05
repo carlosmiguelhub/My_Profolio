@@ -7,6 +7,7 @@ import Skillsection from "./component/Skillsection";
 import Projectsection from './component/Projectsection';
 import Footer from "./component/Footer";
 import Contactsection from "./component/Contactsection";
+import Sectionfooter from './component/Sectionfooter';
 
 
 
@@ -19,9 +20,11 @@ function App() {
   
     <Navbar />
     <IntroSection />
-    <AboutSection />
+    <Sectionfooter />
+      <AboutSection />
     <Skillsection />
     <Projectsection />
+     <Sectionfooter />
     <Contactsection />
      <Footer />
 

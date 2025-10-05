@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Introsection.css';
 import profileImg from '../assets/profile.jpg';
-import wave from "../assets/wave.png";
 
 const IntroSection = () => {
   return (
@@ -32,10 +31,10 @@ const IntroSection = () => {
           <a href="#contact" className="btn btn-primary btn-lg rounded-pill px-4">
                     Want to Collab? Click Here!
                   </a>
+                  
         </div>
-
       </div>
-     
+   
     </section>
     
   );

@@ -1,5 +1,9 @@
 import React from "react";
 import "./Aboutsection.css";
+import elementaryLogo from "../assets/Elem.png";
+import juniorLogo from "../assets/junior.jpg";
+import CollegeLogo from "../assets/college.jpg";
+import masterLogo from "../assets/CIT.png";
 
 const Aboutsection = () => {
   return (
@@ -9,20 +13,27 @@ const Aboutsection = () => {
         <div className="education">
           <h2>Educational Background</h2>
           <div className="edu-card">
-            <h3>Elementary</h3>
-            <p>Estaca Elementary School (2013 - 2014)</p>
+            <h2>Elementary</h2>
+            <p>Estaca Elementary School</p>
+            <img src={elementaryLogo} alt="Elementary Logo" />
+          </div>
+
+          <div className="edu-card">
+            <h2>Junior High School</h2>
+            <p>University of the Visayas</p>
+            <img src={juniorLogo} alt="Elementary Logo" />
           </div>
           <div className="edu-card">
-            <h3>Junior High School</h3>
-            <p>University of the Visayas (2017 - 2018)</p>
+            <h2>College</h2>
+            <p>CTU Danao-Campus - BS Information Technology</p>
+            <img src={CollegeLogo} alt="Elementary Logo" />
+
           </div>
           <div className="edu-card">
-            <h3>College</h3>
-            <p>Cebu Technological University Danao-Campus - BS Information Technology (2024 - 2025)</p>
-          </div>
-          <div className="edu-card">
-            <h3>Master</h3>
-            <p>Cebu Institute of Technology University  (2025 - Present)</p>
+            <h2>Master</h2>
+            <p>Cebu Institute of Technology University</p>
+            <img src={masterLogo} alt="Elementary Logo" />
+
           </div>
         </div>
 
