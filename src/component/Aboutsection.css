@@ -84,6 +84,27 @@
 .hobbies li:hover {
   background: #dbeafe;
 }
+.music-player {
+  margin-top: 30px;
+  text-align: center;
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.music-player h3 {
+  color: #1e3a8a;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.music-player audio {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  border-radius: 10px;
+}
 
 @media (max-width: 768px) {
   .about-container {

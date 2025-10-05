@@ -36,6 +36,13 @@ const Aboutsection = () => {
             <li>💻 Coding and Building Projects</li>
             <li>🏀 Playing Basketball</li>
           </ul>
+          <div className="music-player">
+            <h3>My Favorite Song 🎶 MEMORY</h3>
+            <audio controls>
+              <source src={`${process.env.PUBLIC_URL}/music/Memory.mp3`} type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
         </div>
       </div>
     </section>
