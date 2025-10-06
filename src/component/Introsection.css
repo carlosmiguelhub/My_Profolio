@@ -1,5 +1,5 @@
 .intro-section {
-  background: linear-gradient(135deg, #ffffff, #ffffff);
+  background: linear-gradient(135deg, #ffffff, #faf6e9b5);
   min-height: 100vh;
 }
 
@@ -22,9 +22,9 @@
 }
 
 
-@media (max-width: 768px) {
-  .intro-section {
-    text-align: center;
-  }
-}
+@media (max-width: 680px) {
+  .row{
+    position:static;
 
+}
+}

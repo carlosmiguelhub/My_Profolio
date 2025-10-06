@@ -33,7 +33,7 @@ function Contactsection() {
             <li><strong>Location:</strong> Sabang Danao Cebu, Philippines</li>
           </ul>
 
-          <form class="container-fluid ">
+          <form class="container ">
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Your Name</label>
               <input type="text" className="form-control" id="name" placeholder="Enter your name" />

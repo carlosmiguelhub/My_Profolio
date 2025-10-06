@@ -22,7 +22,7 @@
 .education, .hobbies {
   flex: 1;
   min-width: 320px;
-  background: #ffffff;
+  background: #A9B5DF;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -35,7 +35,7 @@
 }
 
 .education h2, .hobbies h2 {
-  color: #1e3a8a;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 1.8rem;
   text-align: center;

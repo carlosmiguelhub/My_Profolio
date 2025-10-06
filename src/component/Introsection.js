@@ -6,7 +6,7 @@ import profileImg from '../assets/profile.jpg';
 const IntroSection = () => {
   return (
     <section id="Introsection" className="intro-section container-fluid d-flex align-items-center py-5">
-      <div className="row w-100 align-items-center">
+      <div className="row w-100% align-items-center">
         
         {/* LEFT: IMAGE */}
         <div className="col-md-6 text-center mb-4 mb-md-0">
